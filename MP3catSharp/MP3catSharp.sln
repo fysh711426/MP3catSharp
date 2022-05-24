@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32510.428
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MP3catSharp", "MP3catSharp.csproj", "{40FA5528-9BB0-425E-B8B0-F60E431438BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mp3cat", "..\mp3cat\mp3cat.csproj", "{2AA03721-90A0-422E-A7A3-94143BC58CE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40FA5528-9BB0-425E-B8B0-F60E431438BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40FA5528-9BB0-425E-B8B0-F60E431438BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40FA5528-9BB0-425E-B8B0-F60E431438BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40FA5528-9BB0-425E-B8B0-F60E431438BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA03721-90A0-422E-A7A3-94143BC58CE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA03721-90A0-422E-A7A3-94143BC58CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA03721-90A0-422E-A7A3-94143BC58CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA03721-90A0-422E-A7A3-94143BC58CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48A04601-D4D4-4EE2-A3B0-919DAAEAC5B5}
+	EndGlobalSection
+EndGlobal
