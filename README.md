@@ -18,19 +18,19 @@ If you want to use it in C#, please follow the steps below.
 
 ---  
 
-### nuget install  
+### Nuget install  
 
 ```
 PM> Install-Package MP3catSharp
 ```
 
-### example  
+### Example  
 
 ```C#
 MP3cat.merge(outpath, inpaths, tagpath, force, quiet);
 ```
 
-### parameters  
+### Parameters  
 
 * **outpath:** str, required  
 　Output filepath.  
@@ -49,6 +49,6 @@ MP3cat.merge(outpath, inpaths, tagpath, force, quiet);
 
 ---  
 
-### re-compile  
+### Re-compile  
 
-Then if you want to use C# to re-compile the binary file, you can refer here.  
+Then if you want to use C# to re-compile the [mp3cat.go](https://github.com/dmulholl/mp3cat), you can refer [here](https://github.com/fysh711426/MP3catSharp/blob/master/mp3cat/Program.cs).  
