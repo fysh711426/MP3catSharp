@@ -1,5 +1,6 @@
 ﻿using CommandLine;
 using CommandLine.Text;
+using MP3catSharp;
 using MP3libSharp;
 using System;
 using System.Collections.Generic;
@@ -21,7 +22,7 @@ namespace mp3cat
             {
                 wait = true;
                 Console.ForegroundColor = ConsoleColor.Cyan;
-                Console.Write("MP3cat");
+                Console.Write("mp3cat");
                 Console.ResetColor();
                 Console.Write(" > ");
 
@@ -129,16 +130,16 @@ namespace mp3cat
         public static string GetHelp()
         {
             var builder = new StringBuilder();
-            builder.AppendLine("Usage: MP3cat [files]");
+            builder.AppendLine("Usage: mp3cat [files]");
             builder.AppendLine("");
             builder.AppendLine("  This tool concatenates MP3 files without re-encoding. Input files can be");
             builder.AppendLine("  specified as a list of filenames:");
             builder.AppendLine("");
-            builder.AppendLine("    $ MP3cat one.mp3 two.mp3 three.mp3");
+            builder.AppendLine("    $ mp3cat one.mp3 two.mp3 three.mp3");
             builder.AppendLine("");
             builder.AppendLine("  Alternatively, an entire directory of .mp3 files can be concatenated:");
             builder.AppendLine("");
-            builder.AppendLine("    $ MP3cat --dir /path/to/directory");
+            builder.AppendLine("    $ mp3cat --dir /path/to/directory");
             builder.AppendLine("");
             builder.AppendLine("Arguments:");
             builder.AppendLine("  [files]                 List of files to merge.");

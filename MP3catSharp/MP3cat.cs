@@ -10,6 +10,11 @@ namespace MP3catSharp
 {
 	public class MP3cat
 	{
+		public static void merge(string outpath, string[] inpaths, string tagpath = "", bool force = false, bool quiet = false)
+		{
+			merge(outpath, tagpath, inpaths, force, quiet);
+		}
+
 		// Create a new file at [outpath] containing the merged contents of the list of input files.
 		public static void merge(string outpath, string tagpath, string[] inpaths, bool force, bool quiet)
 		{
